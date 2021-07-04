@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TodayNews</string>
     <string name="string_splash_textview_text">跳过</string>
+    <string name="str_main_rb_shanghai">上海</string>
+    <string name="str_main_rb_hangzhou">杭州</string>
+    <string name="str_main_rb_beijing">北京</string>
+    <string name="str_main_rb_shenzhen">深圳</string>
 </resources>

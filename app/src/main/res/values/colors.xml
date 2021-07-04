@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="shape_splash_tv_bg">#B2000000</color>
+    <color name="main_fl_bg">#B2000000</color>
+    <color name="main_rb_text_checked">#FF7F1D</color>
+    <color name="main_rb_text_unchecked">#ADADAD</color>
 </resources>
