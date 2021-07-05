@@ -6,7 +6,12 @@ import android.net.Uri;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.todaynews.mvp.ISplashActivityContract;
+import com.example.todaynews.base.BaseActivity;
+import com.example.todaynews.base.ViewInject;
+import com.example.todaynews.main.MainActivity;
+import com.example.todaynews.splash.FullScreenVideoView;
+import com.example.todaynews.splash.ISplashActivityContract;
+import com.example.todaynews.splash.SplashTimerPresenter;
 
 import java.io.File;
 
@@ -54,7 +59,7 @@ public class SplashActivity extends BaseActivity implements ISplashActivityContr
         mTextViewTimer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SplashActivity.this,MainActivity.class));
+                startActivity(new Intent(SplashActivity.this, MainActivity.class));
                 finish();
             }
         });
