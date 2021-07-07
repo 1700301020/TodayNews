@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/abl_main_shanghai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            app:contentScrim="@color/purple_700"
+            app:layout_scrollFlags="scroll|snap|enterAlways|exitUntilCollapsed"
+            android:id="@+id/ctl_main_shanghai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.6"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/shanghai"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <androidx.appcompat.widget.Toolbar
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_main_fragment_shanghai_top"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/str_main_fragment_shanghai_top_text"
+                android:gravity="center"/>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_main_shanghai"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
