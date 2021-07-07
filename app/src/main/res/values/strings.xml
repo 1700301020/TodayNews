@@ -5,4 +5,6 @@
     <string name="str_main_rb_hangzhou">杭州</string>
     <string name="str_main_rb_beijing">北京</string>
     <string name="str_main_rb_shenzhen">深圳</string>
+    <string name="str_main_fragment_shanghai_top_text">上海欢迎您</string>
+    <string name="str_item_fragment_shanghai">上海市欢迎您</string>
 </resources>

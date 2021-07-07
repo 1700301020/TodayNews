@@ -1,4 +1,4 @@
-package com.example.todaynews;
+package com.example.todaynews.splash;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -6,12 +6,10 @@ import android.net.Uri;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.todaynews.R;
 import com.example.todaynews.base.BaseActivity;
 import com.example.todaynews.base.ViewInject;
 import com.example.todaynews.main.MainActivity;
-import com.example.todaynews.splash.FullScreenVideoView;
-import com.example.todaynews.splash.ISplashActivityContract;
-import com.example.todaynews.splash.SplashTimerPresenter;
 
 import java.io.File;
 
