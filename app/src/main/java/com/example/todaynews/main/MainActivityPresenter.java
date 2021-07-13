@@ -3,13 +3,14 @@ package com.example.todaynews.main;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.mvp.mvp.base.BaseMvpPresenter;
 import com.example.todaynews.R;
 import com.example.todaynews.main.beijing.BeiJingFragment;
 import com.example.todaynews.main.hangzhou.HangZhouFragment;
 import com.example.todaynews.main.shanghai.ShangHaiFragment;
 import com.example.todaynews.main.shenzhen.ShenZhenFragment;
 import com.example.todaynews.main.utils.MainConstantTool;
-import com.example.todaynews.mvp.base.BaseMvpPresenter;
+
 
 public class MainActivityPresenter extends BaseMvpPresenter<IMainActivityContract.IView> implements IMainActivityContract.IPresenter {
 

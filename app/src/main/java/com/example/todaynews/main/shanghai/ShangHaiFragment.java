@@ -10,8 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.todaynews.R;
 import com.example.todaynews.base.BaseFragment;
 import com.example.todaynews.base.ViewInject;
-import com.example.todaynews.main.shanghai.adapter.ShanghaiAdapter;
-import com.example.todaynews.main.shanghai.dto.ShanghaiBeanDataManager;
+import com.example.todaynews.main.shanghai.adapter.ShangHaiAdapter;
+import com.example.todaynews.main.shanghai.dto.ShangHaiBeanDataManager;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
@@ -37,7 +37,7 @@ public class ShangHaiFragment extends BaseFragment {
 
     private void initRecyclerView() {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(mContext));
-        mRecyclerView.setAdapter(new ShanghaiAdapter(getActivity(), ShanghaiBeanDataManager.getData(), false));
+        mRecyclerView.setAdapter(new ShangHaiAdapter(getActivity(), ShangHaiBeanDataManager.getData(), false));
     }
 
     private void initListener() {
